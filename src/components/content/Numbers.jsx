@@ -45,7 +45,7 @@ const Numbers = () => {
         color="#d9d9d9"
         fontSize="24px"
       >
-        <chakra.span fontSize="32px">40+</chakra.span>
+        <chakra.span fontSize="32px">22+</chakra.span>
         <br />
         CLIENTS
         <br /> SATISFIED

@@ -6,7 +6,8 @@ import MongoDBImage from "/images/mongodb.svg";
 import CSSImage from "/images/css.png";
 import CityImage from "/images/city.jpg";
 import ProfilePicture from "/images/ME.jpg";
-import ProfilePictureBlurred from "/images/avatar-small.png";
+// import ProfilePictureBlurred from "/images/avatar-small.png";
+import ProfilePictureBlurred from "/images/ME.jpg";
 
 //Companies Logos
 import SimplifiLogo from "/images/companies/simplifi-logo.png";
@@ -16,11 +17,11 @@ export const INFORMATION = {
   ProfilePictureBlurred,
 
   NAME: "AHMED KHALID",
-  EMAIL: "akhalid24.ak87@gmail.com",
+  EMAIL: "muhammad.ahmedkhalid24@gmail.com",
   PHONE: "+92 344 2849492",
   BRIEF: `"I create intuitive and visually stunning UI/UX designs that
     help businesses connect with their target audiences."`,
-  RESUME: "/Shehzad Ahmed Senior Software Engineer Resume.pdf",
+  RESUME: "/Muhammad Ahmed Khalid Resume.pdf",
 
   LOCAL_TIME_ZONE: "Asia/Karachi",
   CITY_PICTURE: CityImage,
@@ -28,7 +29,7 @@ export const INFORMATION = {
   COUNTRY: "Pakistan",
 
   EXPIRIENCE: 5,
-  TOTAL_PROJECTS: 32,
+  TOTAL_PROJECTS: 20,
 
   LINKS: {
     GITHUB: "https://github.com/muhammad-ahmed-khalid",

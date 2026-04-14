@@ -19,22 +19,27 @@ const Links = () => {
         <Heading color="#fff" fontSize="40px">
           LINKS
         </Heading>
-        <IconBox
+        {/* <IconBox
           display={{ base: "none", lg: "flex" }}
           image={APP_IMAGES.GMAIL}
           link={`mailto:${INFORMATION.EMAIL}`}
           title={"Gmail"}
-        />
+        /> */}
       </Flex>
       <Box />
       <SimpleGrid mt={2} spacing={2} columns={{ base: 4, lg: 3 }}>
-        <IconBox
+        {/* <IconBox
           display={{ base: "flex", lg: "none" }}
           image={APP_IMAGES.GMAIL}
           link={`mailto:${INFORMATION.EMAIL}`}
           title={"Gmail"}
-        />
+        /> */}
         {[
+          {
+            title: "Gmail",
+           link: `mailto:${INFORMATION.EMAIL}`,
+            image: APP_IMAGES.GMAIL,
+          },
           {
             title: "LinkedIn",
             link: INFORMATION.LINKS.LINKEDIN,
@@ -45,11 +50,11 @@ const Links = () => {
             link: INFORMATION.LINKS.GITHUB,
             image: APP_IMAGES.GITHUB,
           },
-          {
-            title: "Twitter",
-            link: INFORMATION.LINKS.MEDIUM,
-            image: APP_IMAGES.MEDIUM,
-          },
+          // {
+          //   title: "Twitter",
+          //   link: INFORMATION.LINKS.MEDIUM,
+          //   image: APP_IMAGES.MEDIUM,
+          // },
         ].map((item, index) => (
           <IconBox
             title={item.title}
