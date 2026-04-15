@@ -7,7 +7,7 @@ const FloatingGithubButton = () => {
     <span>
       <Tooltip label="View on github">
         <Link
-          href="https://github.com/shaxadhere/portfolio-v3"
+          href="https://github.com/muhammad-ahmed-khalid"
           isExternal
           position="fixed"
           bottom="20px"

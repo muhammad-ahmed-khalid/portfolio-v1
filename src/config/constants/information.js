@@ -5,9 +5,9 @@ import ExpressImage from "/images/express.png";
 import MongoDBImage from "/images/mongodb.svg";
 import CSSImage from "/images/css.png";
 import CityImage from "/images/city.jpg";
-import ProfilePicture from "/images/ME.jpg";
+import ProfilePicture from "/images/AhmedKhalid.jpg";
 // import ProfilePictureBlurred from "/images/avatar-small.png";
-import ProfilePictureBlurred from "/images/ME.jpg";
+import ProfilePictureBlurred from "/images/AhmedKhalid.jpg";
 
 //Companies Logos
 import SimplifiLogo from "/images/companies/simplifi-logo.png";
@@ -37,7 +37,7 @@ export const INFORMATION = {
     LINKEDIN: "https://www.linkedin.com/in/muhammad-ahmed-khalid/",
     KODERLABS: "https://koderlabs.com/",
     MEDIUM: "https://shaxadd.medium.com/",
-    CONTACT_LINK: "https://i2ko7kh14di.typeform.com/to/WyRUiOUy",
+    CONTACT_LINK: "#",
   },
   SKILLS: {
     JavaScript: JavascriptImage,
@@ -51,14 +51,120 @@ export const INFORMATION = {
   },
   PROJECTS: [
     {
-      title: "Aroya Cruise Booking",
-      category: "Frontend Development.",
-      link: "https://aroya.com/en",
-      date: "Nov 2025",
+      title: "Roof360",
+      category: "Website Development.",
+      link: "https://roof360.do/",
+      date: "Apr 2026",
       shortDesc:
-        "A modern cruise-booking frontend built to deliver a smooth, visually rich, and user-friendly reservation experience.",
-      stack: "React.js, Tailwind CSS, React Query.",
+        "A real estate marketplace for agents, property owners, and customers to buy, sell, and rent properties with Stripe subscriptions.",
+      stack: "React , Google Maps API, Stripe",
     },
+   {
+      title: "Roof360 Admin",
+      category: "Frontend Development.",
+      link: "https://admin.roof360.do/auth/login",
+      date: "Apr 2026",
+      shortDesc:
+        "A powerful web dashboard that allows full control over the platform. Manage users, properties, subscriptions, and view which users purchased which packages.",
+      stack: "React, React Query, Tailwind CSS",
+    },
+{
+      title: "Roof360 Mobile App",
+      category: "Mobile App Development.",
+      date: "May 2026",
+      shortDesc:
+        "A real estate marketplace for agents, property owners, and customers to buy, sell, and rent properties with Stripe subscriptions",
+      stack: "React Native, IAP, Google Maps",
+    },
+    {
+      title: "Love Post Marked App",
+      category: "Mobile App Development.",
+      link: "https://apps.apple.com/us/app/love-post-marked/id6758606470",
+      date: "Jan 2026",
+      shortDesc:
+        "A complete courier service mobile app with USPS shipping integration for creating shipments, printing labels, and tracking packages.",
+      stack: "React Native, React Query, USPS API",
+    },
+        {
+      title: "MySOCA",
+      category: "Mobile App Development.",
+      link: "https://apps.apple.com/us/app/mysoca/id6477204184",
+      date: "Jan 2022",
+      shortDesc:
+        "Self-service app for SuperOver Cricket Academy members to check & redeem loyalty points and view cricket performance.",
+      stack: "React Native, React Query",
+    },
+     {
+      title: "Cofit 365",
+      category: "Mobile App Development.",
+      link: "https://play.google.com/store/apps/details?id=com.newcofit365&pcampaignid=web_share",
+      date: "Sep 2024",
+      shortDesc:
+        "CoFit365 is the ultimate fitness and social connection app for active people. Join outdoor activities, build community, and stay fit year-round.",
+      stack: "React Native, React Query",
+    },
+     {
+      title: "Amplifi",
+      category: "Mobile App Development.",
+      date: "Sep 2023",
+      shortDesc:
+        "Amplifi App – Create and upload motivational reels, videos, and posts by pulling content and inspiration from social media platforms.",
+      stack: "React Native, React Query",
+    },
+     {
+      title: "TenantXM",
+      category: "Website Development.",
+      link: "https://www.tenantxm.com/",
+      date: "Sep 2025",
+      shortDesc:
+        "Implemented Telnyx-based calling system with Inbound/Outbound calls, supporting mute/unmute, hold, ringing, decline, and call recording for multiple agents.",
+      stack: "React.js, React Query, Tailwind CSS",
+    },
+  {
+      title: "Urokz",
+      category: "Mobile App Development.",
+      link: "https://play.google.com/store/apps/details?id=com.urokz&hl=en",
+      date: "Sep 2023",
+      shortDesc:
+        "A gratitude app where you send Pennies of Affirmation to friends, family, and partner to build stronger, more positive relationships.",
+      stack: "React Native, React Query",
+    },
+  {
+      title: "5Sphere App",
+      category: "Mobile App Development.",
+      link: "https://the5spheresoffit.com/applying-the-5-spheres",
+      date: "Sep 2023",
+      shortDesc:
+        "A powerful goal-tracking platform featuring dynamic forms and modular components to streamline client workflows and boost efficiency.",
+      stack: "React Native, React Query",
+    },
+     {
+      title: "YDrive App",
+      category: "Mobile App Development.",
+      date: "Sep 2023",
+      shortDesc:
+        "Led front-end development of Y-Drive, a cab booking app for both drivers and customers with ride booking, scheduling & Stripe Connect payments.",
+      stack: "React Native, React Query",
+    },
+  {
+      title: "Qpon Admin",
+      category: "Frontend Development.",
+      link: "https://admin.qponapp.us/login",
+      date: "Aug 2024",
+      shortDesc:
+        "Save big every month with deals and discounts on restaurants, beauty, fitness, entertainment & more. Affordable monthly subscription with hundreds of coupons.",
+      stack: "React, React Query, Tailwind CSS",
+    },
+     {
+      title: "Qpon App",
+      category: "Mobile App Development.",
+      link: "https://apps.apple.com/us/app/qpon-app/id1658749756",
+      date: "Aug 2024",
+      shortDesc:
+        "Save big every month with deals and discounts on restaurants, beauty, fitness, entertainment & more. Affordable monthly subscription with hundreds of coupons.",
+      stack: "React Native, React Query",
+    },
+   
     {
       title: "RunOcean Website",
       category: "Website Development.",
@@ -68,51 +174,7 @@ export const INFORMATION = {
         "A clean and responsive marketing website showcasing RunOcean’s services and brand identity.",
       stack: "Next.js, Tailwind CSS, Vercel",
     },
-    {
-      title: "Simplifi Portal",
-      category: "Frontend Development.",
-      link: "https://prod-portal.simplifipay.com",
-      date: "Jan 2025",
-      shortDesc:
-        "A production-grade financial portal frontend designed for secure, seamless digital transactions and account management.",
-      stack: "React.js, Tailwind CSS, Ant Design, React Query",
-    },
-    {
-      title: "SimplifiPay Website",
-      category: "Website Development.",
-      link: "https://simplifipay.com/",
-      date: "Sep 2025",
-      shortDesc:
-        "A high-performance fintech website designed to communicate SimplifiPay’s payment solutions through modern UI/UX.",
-      stack: "Next.js, Tailwind CSS, Framer Motion",
-    },
-    {
-      title: "SimplifiGo Website",
-      category: "Website Development.",
-      link: "https://simplifigo.com/",
-      date: "Sep 2025",
-      shortDesc:
-        "A sleek, mobile-optimized website highlighting SimplifiGo’s payment offerings and customer features.",
-      stack: "Next.js, Tailwind CSS, Framer Motion",
-    },
-    {
-      title: "Maryam Haider Portfolio",
-      category: "Website Development.",
-      link: "https://maryamhaider.me/",
-      date: "June 2025",
-      shortDesc:
-        "A personal portfolio site built with premium design, animations, and a strong focus on professional presentation.",
-      stack: "React.js, Chakra UI",
-    },
-    {
-      title: "Evolv LMS Admin",
-      category: "Frontend Development.",
-      link: "https://lms.bytetrons.com/",
-      date: "Nov 2023",
-      shortDesc:
-        "A robust admin dashboard enabling course management, student tracking, and analytics for an LMS ecosystem.",
-      stack: "React.js, Chakra UI, React Query, Redux",
-    },
+   
     {
       title: "YDrive Admin",
       category: "Frontend Development.",
@@ -121,41 +183,7 @@ export const INFORMATION = {
         "A structured frontend dashboard enabling management of vehicles, drivers, and fleet operations.",
       stack: "React.js, Chakra UI, React Query, Redux",
     },
-    {
-      title: "Evolv LMS Student Web App",
-      category: "Frontend Development.",
-      link: "https://student-lms.bytetrons.com/",
-      date: "Dec 2023",
-      shortDesc:
-        "A student-centric LMS application offering course access, progress tracking, and interactive learning tools.",
-      stack: "React.js, Chakra UI, React Query, Redux",
-    },
-    {
-      title: "Evolv Accounts App",
-      category: "Frontend Development.",
-      link: "https://lms-accounts.bytetrons.com/",
-      date: "Sep 2023",
-      shortDesc:
-        "A dedicated accounts/finance interface for managing invoicing, transactions, and LMS-related billing.",
-      stack: "React.js, Chakra UI, React Query, Redux",
-    },
-    {
-      title: "Evolv LMS Landing Site",
-      category: "Website Development.",
-      date: "Aug 2023",
-      shortDesc:
-        "A modern landing page showcasing the LMS platform’s features, benefits, and user journeys.",
-      stack: "Astro.js, Tailwind CSS",
-    },
-    {
-      title: "Digital Tax Firm",
-      category: "Frontend Development.",
-      link: "https://digital-tax-firm.vercel.app/",
-      date: "Feb 2025",
-      shortDesc:
-        "A research-focused web app that lets tax advisors and students search large datasets of case laws, statutes, while creating drafts and notices directly from the content.",
-      stack: "React.js, Tailwind CSS, Shadcn UI",
-    },
+ 
     {
       title: "PeopleWhoDevelop Website",
       category: "Website Development.",
@@ -174,15 +202,7 @@ export const INFORMATION = {
         "A Next.js-based e-commerce platform where vendors sell digital assets and admins manage vendors, customers, and payments.",
       stack: "Next.js, Tailwind CSS, Shadcn UI",
     },
-    {
-      title: "Evolv Invoices",
-      category: "Full Stack Development.",
-      link: "https://invoicing.bytetrons.com/",
-      date: "Dec 2024",
-      shortDesc:
-        "A dynamic invoicing system with real-time invoice creation, tracking, and financial reporting.",
-      stack: "React.js, Shadcn UI, Tailwind CSS, Node.js, MongoDB, React Query",
-    },
+  
     {
       title: "Forgot Me Knot Website",
       category: "Website Development.",
@@ -192,15 +212,7 @@ export const INFORMATION = {
         "A beautifully designed wedding-planner site offering booking flows, venue details, and services.",
       stack: "HTML, CSS, Javascript",
     },
-    {
-      title: "DenVenues Booking",
-      category: "Frontend Development.",
-      link: "https://venue-booking-six.vercel.app/",
-      date: "Jul 2024",
-      shortDesc:
-        "A responsive venue-booking frontend allowing users to explore and reserve event spaces.",
-      stack: "React.js, Tailwind CSS, Hero UI",
-    },
+  
     {
       title: "Vitalize Website",
       category: "Website Development.",
@@ -210,51 +222,7 @@ export const INFORMATION = {
         "A health-focused website presenting Vitalize’s wellness services with clean visuals and modern UX.",
       stack: "React.js, Tailwind CSS, Shadcn UI",
     },
-    {
-      title: "Vitalize WebApp",
-      category: "Frontend Development.",
-      link: "https://app.vitalize.care/",
-      date: "Nov 2024",
-      shortDesc:
-        "A patient-oriented web app providing appointment scheduling, wellness tracking, and service management.",
-      stack: "React.js, Tailwind CSS, Shadcn UI",
-    },
-    {
-      title: "Fishfin Admin Portal",
-      category: "Frontend Development.",
-      link: "https://admin.fishfinapp.com/",
-      date: "Jul 2024",
-      shortDesc:
-        "Admin dashboard for a fishing-focused social app where users can create in-app stores; admins manage users, stores, and revenue shares.",
-      stack: "Vue.js, Vuestrap UI",
-    },
-    {
-      title: "Range Webchat Admin Portal",
-      category: "Frontend Development.",
-      link: "https://admin.digitalrange.com/",
-      date: "Mar 2023",
-      shortDesc:
-        "A complete admin interface for managing chat bots, users, and conversation automation.",
-      stack: "React.js, Redux, HTML, CSS",
-    },
-    {
-      title: "Range Clubchat Client Portal",
-      category: "Frontend Development.",
-      link: "https://my.clubchat.io/",
-      date: "Mar 2023",
-      shortDesc:
-        "A client portal enabling real-time chat, group communication, and user interactions.",
-      stack: "React.js, Redux, HTML, CSS",
-    },
-    {
-      title: "Range Webchat Floating ChatSDK",
-      category: "Frontend Development.",
-      link: "https://webchat.digitalrange.com/",
-      date: "Mar 2023",
-      shortDesc:
-        "A frontend chat SDK providing embeddable real-time messaging for websites.",
-      stack: "React.js, Redux, HTML, CSS",
-    },
+
     {
       title: "Robopac",
       category: "Mobile App Development.",
@@ -291,15 +259,7 @@ export const INFORMATION = {
         "A centralized wedding coordination platform offering real-time updates, guest list access, and seamless communication for couples, planners, vendors, and guests.",
       stack: "React Native, React Query",
     },
-    {
-      title: "Wezcards",
-      category: "Website Development.",
-      link: "https://wezaads.com/index.html",
-      date: "Aug 2023",
-      shortDesc:
-        "A simple, elegant digital business card platform built as a marketing and identity solution.",
-      stack: "Wordpress",
-    },
+   
     {
       title: "Siplifleet Admin",
       category: "Frontend Development.",
@@ -309,15 +269,7 @@ export const INFORMATION = {
         "A fleet-management frontend portal supporting vehicle tracking, reporting, and administrative tasks.",
       stack: "React.js, MUI, React Query, Zustand",
     },
-    {
-      title: "Shehzad Ahmed Portfolio",
-      category: "Website Development.",
-      link: "https://shaxadd.vercel.app/",
-      date: "Nov 2022",
-      shortDesc:
-        "My own personal developer portfolio showcasing projects, skills, and professional story.",
-      stack: "Gatsby.js, Styled Components",
-    },
+
     {
       title: "Bhealthy - Therapy Portal",
       category: "Frontend Development.",
@@ -326,39 +278,7 @@ export const INFORMATION = {
         "A frontend therapy platform enabling session booking, therapist management, and patient interactions.",
       stack: "React.js, React Query, Zustand, Tailwind CSS",
     },
-    {
-      title: "Evolv Point of Sale",
-      category: "Full Stack Development.",
-      date: "Oct 2023",
-      shortDesc:
-        "A complete POS system with inventory, billing, and real-time sales management.",
-      stack: "React.js, Chakra UI, React Query, Redux",
-    },
-    {
-      title: "PTax, Your Complete Tax Assistant",
-      category: "Full Stack Development.",
-      date: "Sep 2022",
-      shortDesc:
-        "A full-stack digital tax solution built for managing filings, calculations, and tax workflows.",
-      stack: "React.js, Chakra UI, Node.js, MongoDB, React Query, Redux",
-    },
-    {
-      title: "UrAudits Web App",
-      category: "Full Stack Development.",
-      link: "https://uraudits.com/",
-      date: "Aug 2022",
-      shortDesc:
-        "A full-featured auditing platform enabling companies to create, manage, and review digital audits.",
-      stack: "React.js, Node.js, MySQL, Express.js, MUI",
-    },
-    {
-      title: "Fixnxl Web App",
-      category: "Frontend Development",
-      date: "Oct 2021",
-      shortDesc:
-        "A tool that provides insights and analytics to help Amazon sellers optimize product marketing and performance.",
-      stack: "React.js, .Net Core, MongoDB, Azure App Service",
-    },
+
     {
       title: "Moreo Web App",
       category: "Full Stack Development",
@@ -367,35 +287,12 @@ export const INFORMATION = {
         "A custom-built e-commerce platform offering tailored shopping experiences and business-specific functionality.",
       stack: "PHP, MySQL, Bootstrap",
     },
-    {
-      title: "ARTT Website",
-      category: "Full Stack Development",
-      link: "https://artt.edu.pk",
-      date: "Feb 2021",
-      shortDesc:
-        "A clean, educational website representing the ARTT institute and its programs.",
-      stack: "PHP, MySQL, Bootstrap",
-    },
-    {
-      title: "EARTT - Accounting System",
-      category: "Full Stack Development",
-      date: "Feb 2021",
-      shortDesc:
-        "A full-stack accounting platform supporting ledger management, reports, and transaction tracking.",
-      stack: "PHP, MySQL, Bootstrap",
-    },
-    {
-      title: "ARTT LMS Web App",
-      category: "Full Stack Development",
-      date: "Dec 2020",
-      shortDesc:
-        "A full LMS system offering course modules, student management, and performance tracking.",
-      stack: "PHP, MySQL, Bootstrap",
-    },
+
+
   ],
   REVIEWS: [
     {
-      name: "Shehzad Ahmed",
+      name: "Muhammad Ahmed Khalid",
       text: "",
     },
   ],

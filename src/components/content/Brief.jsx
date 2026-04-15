@@ -43,7 +43,7 @@ const Brief = () => {
               <Button
                 as="a"
                 target="_blank"
-                href={INFORMATION.LINKS.CONTACT_LINK}
+                // href={INFORMATION.LINKS.CONTACT_LINK}
                 position="relative"
                 overflow="hidden"
                 px={6}
@@ -59,7 +59,7 @@ const Brief = () => {
                 _active={{ color: "dark" }}
                 transition="all 0.3s ease-in-out"
               >
-                <Text zIndex={1}>Hire me ($40/hour)</Text>
+                <Text zIndex={1}>Hire me ($12/hour)</Text>
                 <Box
                   position="absolute"
                   top={0}

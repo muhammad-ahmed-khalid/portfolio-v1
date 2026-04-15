@@ -69,7 +69,7 @@ const Thanks = () => {
           <ModalBody>
             <VStack spacing={4}>
               <Text fontSize="lg" textAlign="center">
-              Now my resume is in your downloads folder.
+                Now my resume is in your downloads folder.
               </Text>
               <Text fontSize="sm" textAlign="center" color="gray.400">
                 Feel free to check out my other work while you're here.
@@ -94,9 +94,9 @@ const Thanks = () => {
                       image: APP_IMAGES.GITHUB,
                     },
                     {
-                      title: "Twitter",
-                      link: INFORMATION.LINKS.MEDIUM,
-                      image: APP_IMAGES.MEDIUM,
+                      title: "Gmail",
+                      link: `mailto:${INFORMATION.EMAIL}`,
+                      image: APP_IMAGES.GMAIL,
                     },
                   ].map((item, index) => (
                     <IconBox

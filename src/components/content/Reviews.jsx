@@ -19,15 +19,6 @@ const Reviews = () => {
       description:
         "Participated in word-wide web application development Competetion",
     },
-    {
-      name: "Ecompetencia (2019)",
-      description: "Winner of ecompetencia-2019 in web application development",
-    },
-    {
-      name: "International Bebras Community (2016)",
-      description:
-        "International challenge on informatics and computational thinking",
-    },
   ];
 
   return (
