@@ -401,22 +401,10 @@ export const INFORMATION = {
   ],
   EXPIRIENCE_LIST: [
     {
-      designation: "Software Engineer II T2",
-      company: "SimpliFiPay",
-      link: "https://simplifipay.com",
-      timeline: "Sep 2024 - Present",
-      text: `Instant card issuance in MENA & Pakistan. Issue virtual or physical cards for your customers, employees, or partners to solve business problems and drive your bottom line.`,
-      logo: SimplifiLogo,
-      logoStyles: {
-        width: "200px",
-      },
-      onHoverTransform: "translate(-62%, -59%)",
-    },
-    {
-      designation: "Senior Software Engineer",
+      designation: "Software Engineer",
       company: "Koderlabs",
       link: "https://koderlabs.com",
-      timeline: "Nov 2022 - Sep 2024 (1 yr 11 mos)",
+      timeline: "July 2020 - Present",
       text: `Develop high-performing, and easily maintainable code for a broad range of clients.
           Utilize various programming languages, platforms, frameworks like TypeScript, React.js, React Native, Vue.js and JavaScript.`,
       logo: "https://www.koderlabs.com/assets/img/logo/new-logo.png",
@@ -426,32 +414,18 @@ export const INFORMATION = {
       onHoverTransform: "translate(-40%, -190%)",
     },
     {
-      designation: "MERN Stack Developer",
-      company: "Fine Solutions",
-      link: "https://koderlabs.com",
-      timeline: "Feb 2022 - Oct 2022 (9 mos)",
+      designation: "Frontend Developer",
+      company: "Koderspot",
+      link: "http://www.koderspot.com/",
+      timeline: "Jan 2020 - Jul 2020 (7 mos)",
       text: `Worked with a team of three designers to build a marketing website & auditing web application for UrAudits. 
           Worked on Next.js websites and landing pages.
           Worked on a Human Resource Management System.`,
-      logo: "/fine.png",
+      logo: "/Koderspot-logo-new.png",
       logoStyles: {
         width: "200px",
       },
       onHoverTransform: "translate(-62%, -70%)",
-    },
-    {
-      designation: "MERN Stack Developer",
-      company: "ARTT",
-      link: "https://artt.edu.pk",
-      timeline: "Mar 2019 - Jan 2022 (2 yrs 10 mos)",
-      text: `Collaborated with marketing team to develop a marketing website.
-          Contributed to the development of learning management systems, which included implementing video lectures with DRM protection and integrating Zoom for live classes.
-          Worked on accounting systems for ARTT.`,
-      logo: "/artt.png",
-      logoStyles: {
-        width: "200px",
-      },
-      onHoverTransform: "translate(-100%, -28%)",
     },
   ],
   CARRIER_START_DATE: "2020-07-01",

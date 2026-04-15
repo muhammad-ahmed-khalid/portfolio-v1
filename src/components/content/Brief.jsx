@@ -86,9 +86,7 @@ const Brief = () => {
             </Flex>
           </Flex>
           <Text>
-            I’m a software engineer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I’m focused
-            on building accessible, human-centered products at{" "}
+            I’m a software engineer focused on building (and occasionally designing) high-quality digital experiences. Currently, I create accessible, human-centered products at{" "}
             <chakra.a
               color={COLORS.PRIMARY}
               target="_blank"
